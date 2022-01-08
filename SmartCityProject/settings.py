@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'authentication',
     'parkingManagement',
+    'RoadClassification',
 ]
 
 REST_FRAMEWORK = {

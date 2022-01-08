@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/',include('authentication.urls')),
     path('parking/',include('parkingManagement.urls')),
+    path('road/',include('RoadClassification.urls')),
 ]
