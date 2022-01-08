@@ -102,7 +102,7 @@ def detect(test_image, plot_show = False):
 
 
 
-# image_np,boxes_collect,scores_collect,classes_collect,num_collect = detect("H:/Projects/SmartCityProject/RoadClassification/test_images/test_image (4).jpg",True)
+# image_np,boxes_collect,scores_collect,classes_collect,num_collect = detect("/RoadClassification/images/recieved/test_image_17_vpEU0Xa.jpg",True)
 
 
 # plt.figure(figsize=(12,12))
