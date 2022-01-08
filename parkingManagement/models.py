@@ -8,10 +8,10 @@ class ParkingLot(models.Model):
     latitude = models.CharField(max_length=200)
     longitude = models.CharField(max_length=200)
     totalSlots = models.IntegerField(default=0)
-    emptySlots = models.IntegerField(default=0)
 
     def __str__(self):
         return f'{self.user}'
+
 
 
 class CarToBeParked(models.Model):

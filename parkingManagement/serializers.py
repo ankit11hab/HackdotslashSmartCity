@@ -19,3 +19,15 @@ class CarToBeParkedSerializer(serializers.ModelSerializer):
     class Meta:
         model = CarToBeParked
         fields = ['parkingLotAdminId','startTime','endTime']
+
+class VerifyAccessIdSerializer(serializers.ModelSerializer):
+    accessId = serializers.CharField(max_length=100)
+    class Meta:
+        model = CarToBeParked
+        fields = ['accessId']
+
+class ParkingAvailabilitySerializer(serializers.ModelSerializer):
+    parkingLotAdminId = serializers.CharField(max_length=100)
+    class Meta:
+        model = ParkingLot
+        fields = ['parkingLotAdminId']
